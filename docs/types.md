@@ -148,6 +148,7 @@ type Post = {
 
   userDeleted: boolean; // Indicated whether the author's account is deleted
   isPinned: boolean;
+  isPinnedSite: boolean; // [placeholder for official definition]
   communityId: string; // The ID of the community the post is posted in
   communityName: string; // The name of that community
 
