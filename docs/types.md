@@ -73,7 +73,7 @@ type Community = {
 
   rules?: CommunityRule[];
 
-  reportDetails?: {
+  ReportsDetails?: {
     noReports: int; // Total reports count
     noPostReports: int; // Reported posts count
     noCommentReports: int; // Reported comments count
