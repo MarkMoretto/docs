@@ -69,6 +69,8 @@ type Community = {
   userJoined: boolean; // Indicates whether the authenticated user is a member
   userMod: boolean; // Indicates whether the authenticated user is a moderator
 
+  isMuted: boolean; // Indicates whether the community is muted from user's home feed.
+
   mods?: User[];
 
   rules?: CommunityRule[];
